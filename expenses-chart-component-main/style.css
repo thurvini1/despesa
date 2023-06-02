@@ -1,0 +1,81 @@
+:root{
+    /* ### Primary */
+
+--Soft-red: hsl(10, 79%, 65%);
+--Cyan: hsl(186, 34%, 60%);
+
+/* ### Neutral */
+
+--Dark-brown: hsl(25, 47%, 15%);
+--Medium-brown: hsl(28, 10%, 53%);
+--Cream: hsl(27, 66%, 92%);
+--Very-pale-orange: hsl(33, 100%, 98%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Cream);
+    align-items: center;
+    justify-content: center;
+    margin: 500px;
+    display: flex;
+    margin-top: 180px;
+}
+
+header{
+   background-color: var(--Soft-red);
+   height: 83px;
+   width: 400px;
+   border-radius: 14px;
+   display: flex;
+   align-items: center;
+   gap: 220px;
+   
+}
+
+header p{
+    color: aliceblue;
+}
+
+span{
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 170px;
+    
+}
+
+.caixa1{
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    padding: 10px;
+     
+}
+
+.caixa2{
+    gap: 40px;
+   display: flex;
+   margin-top: 40px;
+}
+
+.caixa3 h2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+}
+
